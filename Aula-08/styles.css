@@ -1,0 +1,31 @@
+.menu-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color:green;
+
+}
+
+
+
+
+nav{
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(241, 115, 12);
+    text-align: center;
+}
+div{
+   background-color: black;
+   width: 600px;
+   border: 1px solid orange;
+   text-align: center;
+}
+h1{
+    color:white;
+}
+a{
+    display:block;
+    text-decoration: none;
+}
