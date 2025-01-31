@@ -2,7 +2,7 @@ Aula introdutória sobre Lógica de Programação com JavaScript
 
 Declaração de variáveis
 
-Alert, Confirm, Prompt
+Alert, Confirm, Prompt 
 
 Conversão numérica
 
