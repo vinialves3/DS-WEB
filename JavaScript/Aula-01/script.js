@@ -19,7 +19,7 @@ alert(prompt);
 
 // Tentativa de soma
 var numero1 = Number.parseInt (prompt("Digite o primeiro número"));
-var numero2 = Number.parseInt (prompt("Digite o segundo número"));
+var numero2 = prompt ("Digite o segundo número");
 alert(numero1 + numero2);
 
 
