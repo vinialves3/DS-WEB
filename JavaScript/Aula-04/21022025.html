@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<input type="text" placeholder="Nome" id="nome">
+<input type="text" placeholder="Descrição" id="desc">
+<input type="button" value="CriarCartao" onclick="CriarCartao()">
+
+<script>
+function addElement() {
+  // cria um novo elemento div
+  const newDiv = document.createElement("div");
+
+  // e adiciona algum conteúdo ao elemento
+  const newContent = document.createTextNode("Hi there and greetings!");
+
+  // adiciona o "text node" para o div recém criado
+  newDiv.appendChild(newContent);
+
+  // adiciona o elemento recém criado e seu conteúdo dentro do DOM
+  const currentDiv = document.getElementById("div1");
+  document.body.insertBefore(newDiv, currentDiv);
+}
+</script>
+<body>
+    
+</body>
+</html>
