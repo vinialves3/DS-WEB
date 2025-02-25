@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <button id = "botao">Clique aqui para iniciar a contagem</button>
+
+    <p id = "resultado"></p>
+
+
+
+
+
+</body>
+
+
+<script> 
+    const botao = document.getElementById("botao");
+    const resultado = document.getElementById("resultado")
+    var contador = 0;
+
+
+
+    botao.addEventListener('click',function(){
+        contador++;
+        resultado.innerHTML = contador;
+      });
+    </script>
+
+    
+
+      </html>
+   

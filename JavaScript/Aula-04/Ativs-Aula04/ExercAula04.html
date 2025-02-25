@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h2>Digite o texto aqui</h2>
+    <input type="text" id = "texto" placeholder="Pressione alguma tecla">
+    <p id= "resultado"></p>
+</body>
+
+
+
+</html>
+
+
+
+
+
+<script>
+
+const texto = document.getElementById('texto');
+const resultado = document.getElementById('resultado');
+
+texto.addEventListener('keypress', function(event) {
+    resultado.innerHTML += `<p><strong>keypress:</strong> ${event.key}</p>`;
+
+
+
+
+  });
+
+  </script>
+
+
+
+
+</html>
