@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <script>
+        let contador = 0;
+        function SomarUm() {
+            contador = contador + 1;
+            document.getElementById("contador").innerText = "Contagem: " + contador;
+        }
+    </script>
+
+
+
+</head>
+
+
+<body>
+
+    <button onclick="SomarUm()">Clique aqui</button>
+    <p id="contador">Número de cliques: 0</p>
+
+</body>
+</html>
